@@ -11,10 +11,14 @@
 .travel_box{
     border: 1px solid rgb(68, 68, 68);
     box-shadow: 10px 10px 10px grey;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .travel_box img{
     display: inline-block;
-    width: 20rem;   height: 14rem;
+    width: 100%;   height: 14rem;
     object-fit: cover;
 }
 .travel_box h2{
@@ -23,10 +27,11 @@
     padding-left: 1rem;
 }
 .travel_box p{
-    width: 18rem;
+    width: 85%;
+    overflow-wrap: break-word;
     padding: .5rem 1rem;
 }
-.travel_box > div{
+.travel_box > div:last-child{
     text-align: center;
 }
 .travel_box a{
@@ -52,4 +57,12 @@ background-color: red;
 .btnNew{
 background-color: blue;
 }
+
+
+/* travel_box에 %로 따로 width 설정을 주고,
+img에 width:100%로 box크기에 딱 맞게 바꾸면
+박스 전체가 창 크기에 따라 움직인다. 
+지금처럼 그대로 travel box witdh를rem으로, 
+img 크기도 rem으로 두면 창 크기에 맞게
+움직이지 않음.*/
 
