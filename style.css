@@ -41,6 +41,7 @@
 }
 .travel_box a:hover{
     background-color: black;
+    cursor: grabbing;
 }
 .btnPar{
 background-color: purple;
