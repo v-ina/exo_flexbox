@@ -1,0 +1,55 @@
+*{
+    margin: 0;  padding: 0;
+}
+
+.flex_travel{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content:center;
+    gap: 4rem;
+}
+.travel_box{
+    border: 1px solid rgb(68, 68, 68);
+    box-shadow: 10px 10px 10px grey;
+}
+.travel_box img{
+    display: inline-block;
+    width: 35rem;   height: 24rem;
+    object-fit: cover;
+}
+
+.travel_box h2{
+    font-size: 2rem;
+    margin: 2rem 0rem 1rem 0rem;
+    padding-left: 1.5rem;
+}
+
+.travel_box p{
+    width: 27rem;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+.travel_box > div{
+    text-align: center;
+}
+.travel_box a{
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.btnPar{
+background-color: purple;
+}
+.btnTok{
+background-color: red;
+}
+.btnNew{
+background-color: blue;
+}
+
